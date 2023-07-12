@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Integrantes DBR</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+     <img src="./src/img/logo.jpeg" alt="Logo DBR">
+    </header>
+    <main class="selecao-de-personagem">
+        <section class="personagens">
+            <h1>Selecione um personagem</h1>
+            <ul>
+                <li class="selecionado personagem" id="regly" data-name="Reglynho" data-description="Feminista e defensor das minorias.">
+                    <img src="./src/img/regly-pequeno.jpeg" alt="Card Ciclope">
+                </li>
+                <li class="personagem" id="wbbr" data-name="Wellington"
+                    data-description="Paulete ou Zastrow? Ninguem sabe ao certo. É conhecido por muitos vulgos">
+                    <img src="./src/img/wbbr-pequeno.jpeg" alt="Card Jean Grey">
+                </li>
+                <li class="personagem" id="dani" data-name="Danizada"
+                    data-description="Se amarra em um slidezinho e jogar de Ahri 100% tryhard sem tiltar.">
+                    <img src="./src/img/dani-pequeno.jpeg" alt="Card Lince Negra">
+                </li>
+                <li class="personagem" id="paulete" data-name="The Real Paulete"
+                    data-description="Melhor comprador de peças para PC no melhor preço possivel.">
+                    <img src="./src/img/paulete-pequeno.jpeg" alt="Card Tempestade">
+                </li>
+                <li class="personagem" id="jhow" data-name="Diou"
+                    data-description="Mente blindada contra tilte, suas melhores performances vistas foram de: Ahri e Vex, ambas no Clash.">
+                    <img src="./src/img/jhow-pequeno.jpeg" alt="Card Vampira">
+                </li>
+                <li class="personagem" id="bia" data-name="Biazada"
+                    data-description="Mono Soraka bolada, vai por céu por aturar o Jhow.">
+                    <img src="./src/img/bia-pequeno.jpeg" alt="Card Wolverine">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/img/regly-grande.jpeg" alt="Personagem Selecionado">
+            <aside class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Reglynho</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Feminista e defensor das minorias.</p>
+            </aside>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
